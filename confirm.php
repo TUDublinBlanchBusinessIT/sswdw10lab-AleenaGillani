@@ -19,7 +19,7 @@ $sql = "insert into flightbooking(firstname,surname,bagsUnderTenKG,bagsOverTenKG
 
 $sql .= "('$fn','$sn','1','1')";
 
-//echo $sql;
+echo $sql;
 
 
 if (mysqli_query($conn, $sql)) {
